@@ -1,0 +1,19 @@
+## Interface: 90002
+## Title: Overachiever - Tabs
+## Version: 1.1.4
+## Author: Tuhljin
+## Notes: Add tabs (Search, Suggestions, etc.) to the Achievements window.
+## LoadOnDemand: 1
+## LoadWith: Blizzard_AchievementUI
+## Dependencies: Overachiever
+## SavedVariables: Overachiever_Tabs_Settings
+## SavedVariablesPerCharacter: Overachiever_Tabs_CharVars
+## X-Child-Of: Overachiever
+
+localization.lua
+build.lua
+Search.lua
+Suggestions.lua
+Watch.lua
+Related.lua
+CalendarNotice.lua

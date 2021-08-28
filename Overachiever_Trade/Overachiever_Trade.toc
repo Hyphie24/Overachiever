@@ -1,0 +1,12 @@
+## Interface: 90002
+## Title: Overachiever - Trade
+## Version: 1.1.4
+## Author: Tuhljin
+## Notes: Add achievement information to the Cooking window.
+## LoadOnDemand: 1
+## LoadWith: Blizzard_TradeSkillUI
+## Dependencies: Overachiever
+## X-Child-Of: Overachiever
+
+localization.lua
+TradeSkills.lua

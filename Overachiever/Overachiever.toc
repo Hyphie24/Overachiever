@@ -1,0 +1,31 @@
+## Interface: 90002
+## Title: Overachiever
+## Version: 1.1.4
+## Author: Tuhljin
+## Notes: Tools and tweaks to make the lives of players seeking achievements a little bit easier.
+## Notes-zhTW: 使玩家尋求成就可以稍微輕鬆點的微調工具。
+## Notes-zhCN: 使玩家寻求成就可以稍微轻松点的微调工具。
+## SavedVariables: Overachiever_Settings, Overachiever_CharVars_Default
+## SavedVariablesPerCharacter: Overachiever_CharVars, Overachiever_CharVars_Consumed
+## OptionalDeps: LibBabble-SubZone-3.0, LibBabble-Inventory-3.0, LibSharedMedia-3.0
+## X-WoWI-ID: 11361
+
+
+libs\TjOptions.lua
+libs\TjSharedMediaDropDown\lib.xml
+libs\TjDragIt.lua
+libs\TjBagWatch.lua
+libs\TjThreads.lua
+libs\TjAchieve.lua
+libs\TjCalendar.lua
+
+localization.lua
+Templates.xml
+Overachiever.lua
+AchieveID.lua
+AchieveTip.lua
+GameTip.lua
+Options.lua
+Calendar.lua
+AchieveTracking.lua
+AchieveSearch.lua
