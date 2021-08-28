@@ -1,7 +1,8 @@
-## Interface: 90002
+## Interface: 90100
 ## Title: Overachiever
-## Version: 1.1.4
-## Author: Tuhljin
+## Version: 1.1.5
+## Original Author: Tuhljin
+## Fan Fix Author: Hyphie
 ## Notes: Tools and tweaks to make the lives of players seeking achievements a little bit easier.
 ## Notes-zhTW: 使玩家尋求成就可以稍微輕鬆點的微調工具。
 ## Notes-zhCN: 使玩家寻求成就可以稍微轻松点的微调工具。
