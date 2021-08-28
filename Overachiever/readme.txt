@@ -1,8 +1,10 @@
 
-Overachiever v1.1.4
+Overachiever v1.1.5
 ==============================
 
-Author: Tuhljin
+Original Author: Tuhljin
+
+Fan FIx Author: Hyphie
 
 Tools and tweaks to make the lives of players seeking Achievements a little bit easier.
 
@@ -776,7 +778,8 @@ v0.32
   names of any meta-achievements that list this achievement as a criteria.
 - Changed achievement sorting so that two strings beginning with numbers compare the numbers first. This means
   "5 Exalted Reputations" is now listed before "20 Exalted Reputations," for example.
-- Updated most localizations. Translations are generously provided by users like you! Please help contribute if you  are able: http://wow.curseforge.com/projects/overachiever/localization/
+- Updated most localizations. Translations are generously provided by users like you! Please help contribute if you
+  are able: http://wow.curseforge.com/projects/overachiever/localization/
 
 v0.31
 - Suggestions Tab: Many new suggestions based on your current location are possible, including those for: completing
