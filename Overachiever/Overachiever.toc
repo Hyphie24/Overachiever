@@ -11,6 +11,13 @@
 ## OptionalDeps: LibBabble-SubZone-3.0, LibBabble-Inventory-3.0, LibSharedMedia-3.0
 ## X-WoWI-ID: 11361
 
+#@no-lib-strip@
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+libs\LibSharedMedia-3.0\lib.xml
+libs\LibBabble-SubZone-3.0\lib.xml
+libs\LibBabble-Inventory-3.0\lib.xml
+#@end-no-lib-strip@
 
 libs\TjOptions.lua
 libs\TjSharedMediaDropDown\lib.xml
@@ -19,9 +26,6 @@ libs\TjBagWatch.lua
 libs\TjThreads.lua
 libs\TjAchieve.lua
 libs\TjCalendar.lua
-libs\LibBabble-Inventory-3.0\lib.xml
-libs\LibBabble-SubZone-3.0\lib.xml
-libs\LibSharedMedia-3.0\lib.xml
 
 localization.lua
 Templates.xml
