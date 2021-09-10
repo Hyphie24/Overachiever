@@ -1199,7 +1199,7 @@ local function OverachieverAlertFrame_SetUp(frame, achievementID, alreadyEarned,
 		--HEY = HEY or { frame.Icon.Texture:GetTexCoord() }
 		frame.Icon.Texture:SetTexture(icon)
 		frame.Icon.Texture:SetTexCoord(0.0, 0.7109375, 0.0, 0.7109375)
-		frame.Background:SetTexture(TexAlert)
+		--frame.Background:SetTexture(TexAlert)
 		--frame.OldAchievement:SetTexture(TexAlertBorders) (Currently broken)
 	else
 		frame.Icon.Texture:SetTexCoord(0, 0, 0, 1, 1, 0, 1, 1)

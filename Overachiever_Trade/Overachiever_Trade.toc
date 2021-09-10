@@ -1,7 +1,8 @@
 ## Interface: 90002
 ## Title: Overachiever - Trade
-## Version: 1.1.4
-## Author: Tuhljin
+## Version: 1.1.51
+## Original Author: Tuhljin
+## Fan Fix Author: Hyphie
 ## Notes: Add achievement information to the Cooking window.
 ## LoadOnDemand: 1
 ## LoadWith: Blizzard_TradeSkillUI
