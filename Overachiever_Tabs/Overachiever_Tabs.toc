@@ -1,7 +1,8 @@
 ## Interface: 90100
 ## Title: Overachiever - Tabs
-## Version: 1.1.4
-## Author: Tuhljin
+## Version: 1.1.51
+## Original Author: Tuhljin
+## Fan Fix Author: Hyphie
 ## Notes: Add tabs (Search, Suggestions, etc.) to the Achievements window.
 ## LoadOnDemand: 1
 ## LoadWith: Blizzard_AchievementUI
