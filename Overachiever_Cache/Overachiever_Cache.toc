@@ -1,7 +1,8 @@
 ## Interface: 90100
 ## Title: Overachiever - Cache
-## Version: 1.1.4
-## Author: Tuhljin
+## Version: 1.1.51
+## Original Author: Tuhljin
+## Fan Fix Author: Hyphie
 ## Notes: Shorten load times and improve accuracy of cross-faction data.
 ## Dependencies: Overachiever
 ## SavedVariables: Overachiever_Cache_CritAssets
