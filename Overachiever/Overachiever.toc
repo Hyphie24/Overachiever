@@ -1,6 +1,6 @@
 ## Interface: 90100
 ## Title: Overachiever
-## Version: 1.1.5
+## Version: 1.1.51
 ## Original Author: Tuhljin
 ## Fan Fix Author: Hyphie
 ## Notes: Tools and tweaks to make the lives of players seeking achievements a little bit easier.
