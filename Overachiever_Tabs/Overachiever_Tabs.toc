@@ -1,4 +1,4 @@
-## Interface: 90002
+## Interface: 90100
 ## Title: Overachiever - Tabs
 ## Version: 1.1.51
 ## Original Author: Tuhljin
