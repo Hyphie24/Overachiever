@@ -2,6 +2,7 @@
 --
 --  Overachiever
 --    by Tuhljin
+--
 
 --Overachiever_Debug = true
 
@@ -946,11 +947,13 @@ do
   end
 
   function achbtnOnEnter(self)
+
+	local f = CreateFrame("Frame", nil, self, BackdropTemplateMixin and "BackdropTemplate")
     local id, tipset, guildtip = self.id, 0
 	-- If tipset is 1, then if adding a new line, you should add an empty line first. 0 means nothing is on the tooltip yet. Otherwise, use 2.
     GameTooltip:SetOwner(self, "ANCHOR_NONE")
     GameTooltip:SetPoint("TOPLEFT", self, "TOPRIGHT", 8, 0)
-    GameTooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b)
+    f:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b)
 
 	-- This section based on part of AchievementShield_OnEnter:
 	if ( self.accountWide ) then
@@ -1198,7 +1201,7 @@ local function OverachieverAlertFrame_SetUp(frame, achievementID, alreadyEarned,
 		--HEY = HEY or { frame.Icon.Texture:GetTexCoord() }
 		frame.Icon.Texture:SetTexture(icon)
 		frame.Icon.Texture:SetTexCoord(0.0, 0.7109375, 0.0, 0.7109375)
-		
+
 	else
 		frame.Icon.Texture:SetTexCoord(0, 0, 0, 1, 1, 0, 1, 1)
 		frame.Background:SetTexture("Interface\\AchievementFrame\\UI-Achievement-Alert-Background")
