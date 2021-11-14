@@ -282,7 +282,7 @@ local function buildRelatedTab()
 	  GameTooltip:SetOwner(self, "ANCHOR_NONE")
 	  --GameTooltip:SetPoint("TOPLEFT", self, "TOPRIGHT", 10, 0)
 	  GameTooltip:SetPoint("TOPLEFT", self, "TOPRIGHT", 0, 15)
-	  GameTooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b)
+	  
 	  GameTooltip:SetHyperlink( GetAchievementLink(baseAchID) )
 	end)
 
@@ -325,7 +325,7 @@ local function buildRelatedTab()
 
 	RecursiveCheckbox:SetScript("OnEnter", function(self)
 	  GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-	  GameTooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b)
+	  
 	  GameTooltip:SetText(L.RELATED_RECURSIVE_TIP, nil, nil, nil, nil, 1)
 	end)
 
