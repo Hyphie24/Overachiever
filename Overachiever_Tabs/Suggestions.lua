@@ -1009,6 +1009,7 @@ local ACHID_ZONE_MISC = {
 		15043, -- Hoarder of Torghast
 		14961, -- Chains of Domination
 		15064, -- Breaking the Chains
+		15004, -- A Sly Fox
 	},
 	["Korthia"] = { 
 		15107, -- Conquering Korthia
@@ -2870,7 +2871,7 @@ ShowHiddenCheckbox:SetHitRectInsets(0, -1 * min(Overachiever_SuggestionsFrameSho
 
 ShowHiddenCheckbox:SetScript("OnEnter", function(self)
   GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-  GameTooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b)
+  
   GameTooltip:AddLine(L.SUGGESTIONS_SHOWHIDDEN_TIP, nil, nil, nil, 1)
   GameTooltip:AddLine(L.SUGGESTIONS_SHOWHIDDEN_TIP2, nil, nil, nil, 1)
   GameTooltip:Show()

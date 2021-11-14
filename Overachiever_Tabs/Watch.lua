@@ -448,7 +448,7 @@ Overachiever_WatchFrameCopyDestCheckboxText:SetText(L.WATCH_COPY)
 CopyDestCheckbox:SetHitRectInsets(0, -1 * min(Overachiever_WatchFrameCopyDestCheckboxText:GetWidth() + 8, 155), 0, 0)
 CopyDestCheckbox:SetScript("OnEnter", function(self)
   GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-  GameTooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b)
+  
   GameTooltip:SetText(L.WATCH_COPY_TIP, nil, nil, nil, nil, 1)
 end)
 CopyDestCheckbox:SetScript("OnLeave", GameTooltip_Hide)
