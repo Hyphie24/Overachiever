@@ -234,7 +234,7 @@ FullListCheckbox:SetHitRectInsets(0, -1 * min(Overachiever_SearchFrameFullListCh
 FullListCheckbox:SetScript("OnClick", FullList_OnClick)
 FullListCheckbox:SetScript("OnEnter", function(self)
   GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-  GameTooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b)
+  --GameTooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b)
   GameTooltip:SetText(L.SEARCH_FULLLIST_TIP, nil, nil, nil, nil, 1)
 end)
 FullListCheckbox:SetScript("OnLeave", GameTooltip_Hide)

@@ -831,7 +831,7 @@ function Overachiever.BuildNewTab(name, text, watermark, helptip, loadFunc, filt
   local frameBGDarken = frame:CreateTexture(nil, "ARTWORK")
   frameBGDarken:SetAllPoints(frameBG)
   frameBGDarken:SetColorTexture(0, 0, 0, 0.75)
-  local frameBorder = CreateFrame("Frame", nil, frame, "BackdropTemplate")
+  local frameBorder = CreateFrame("Frame", nil, frame, "BackdropTemplate,GameTooltipTemplate")
   frameBorder:SetAllPoints(frame)
   frameBorder:SetBackdrop( {
     edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border", tile = true, tileSize = 16, edgeSize = 16,
@@ -992,7 +992,7 @@ function HelpIcon_OnEnter(self)
   self.tex:SetTexture("Interface\\AddOns\\Overachiever_Tabs\\HelpIconHighlight")
   GameTooltip:SetOwner(self, "ANCHOR_NONE")
   GameTooltip:SetPoint("TOPLEFT", self, "TOPRIGHT", 10, 0)
-  GameTooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b)
+  --GameTooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b)
   GameTooltip:AddLine(self.tip:format(tabselected.tab:GetText()), 1, 1, 1)
   --GameTooltip:AddLine(" ")
   GameTooltip:AddLine(tabselected.helptip, nil, nil, nil, 1)
