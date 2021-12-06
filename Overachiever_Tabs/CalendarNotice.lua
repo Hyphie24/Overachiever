@@ -104,7 +104,6 @@ function notice_OnEnter(self)
 	local shiftKey = IsShiftKeyDown()
 	GameTooltip:SetOwner(self, "ANCHOR_NONE")
 	GameTooltip:SetPoint("TOPLEFT", self, "TOPRIGHT", 5, 0)
-	
 	GameTooltip:AddLine(self.title, 1, 1, 1)
 	GameTooltip:AddLine(" ")
 	local endLine, skipStart = nil, false
