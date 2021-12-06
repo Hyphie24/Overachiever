@@ -130,7 +130,7 @@ end
 local function AutoTrackIcon_OnEnter(self)
   GameTooltip:SetOwner(self, "ANCHOR_NONE")
   GameTooltip:SetPoint("TOPLEFT", self, "TOPRIGHT", 10, 0)
-  
+  GameTooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b)
   GameTooltip:AddLine(L.SUGGESTIONS_AUTOTRACKING_TIP, 1, 1, 1)
   GameTooltip:AddLine(L.SUGGESTIONS_AUTOTRACKING_TIP2)
   GameTooltip:Show()
