@@ -328,7 +328,6 @@ skillButtonOnEnter = skillButtonOnEnter or function(self, _, calledByExamine)
     if (achlist) then
       GameTooltip:SetOwner(self, "ANCHOR_NONE")
       GameTooltip:SetPoint("TOPLEFT", self, "TOPRIGHT", -45, 0)
-      
       GameTooltip:AddLine(L.REQUIREDFORMETATIP)
       GameTooltip:AddLine(" ")
       Overachiever.AddAchListToTooltip(GameTooltip, achlist)

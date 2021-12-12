@@ -130,7 +130,6 @@ end
 local function AutoTrackIcon_OnEnter(self)
   GameTooltip:SetOwner(self, "ANCHOR_NONE")
   GameTooltip:SetPoint("TOPLEFT", self, "TOPRIGHT", 10, 0)
-  GameTooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b)
   GameTooltip:AddLine(L.SUGGESTIONS_AUTOTRACKING_TIP, 1, 1, 1)
   GameTooltip:AddLine(L.SUGGESTIONS_AUTOTRACKING_TIP2)
   GameTooltip:Show()
@@ -831,7 +830,7 @@ function Overachiever.BuildNewTab(name, text, watermark, helptip, loadFunc, filt
   local frameBGDarken = frame:CreateTexture(nil, "ARTWORK")
   frameBGDarken:SetAllPoints(frameBG)
   frameBGDarken:SetColorTexture(0, 0, 0, 0.75)
-  local frameBorder = CreateFrame("Frame", nil, frame, "BackdropTemplate,GameTooltipTemplate")
+  local frameBorder = CreateFrame("Frame", nil, frame, "BackdropTemplate")
   frameBorder:SetAllPoints(frame)
   frameBorder:SetBackdrop( {
     edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border", tile = true, tileSize = 16, edgeSize = 16,
