@@ -2871,7 +2871,6 @@ ShowHiddenCheckbox:SetHitRectInsets(0, -1 * min(Overachiever_SuggestionsFrameSho
 
 ShowHiddenCheckbox:SetScript("OnEnter", function(self)
   GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-  
   GameTooltip:AddLine(L.SUGGESTIONS_SHOWHIDDEN_TIP, nil, nil, nil, 1)
   GameTooltip:AddLine(L.SUGGESTIONS_SHOWHIDDEN_TIP2, nil, nil, nil, 1)
   GameTooltip:Show()

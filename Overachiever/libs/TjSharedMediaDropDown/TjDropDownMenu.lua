@@ -543,7 +543,6 @@ if (not TjDropDownMenu or TjDropDownMenu.Version < THIS_VERSION) then
       local tip = self.tooltip
       if (tip ~= 0) then
         GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
-        
         if (type(tip) == "string") then
           GameTooltip:AddLine(tip, nil, nil, nil, 1);
           if (self.tooltip2) then
@@ -558,7 +557,6 @@ if (not TjDropDownMenu or TjDropDownMenu.Version < THIS_VERSION) then
       local tab = findEntryByValue(self.TjDDM.menuList, self.TjDDM.selectedValue, true);  -- Get current selected entry's table
       if (tab.tooltipTitle) then
         GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
-        
         GameTooltip:SetText(tab.tooltipTitle, 1, 1, 1)
         if (tab.tooltipText) then
           GameTooltip:AddLine(tab.tooltipText, NORMAL_FONT_COLOR.r, NORMAL_FONT_COLOR.g, NORMAL_FONT_COLOR.b, 1);
