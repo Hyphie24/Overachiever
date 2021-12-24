@@ -28,6 +28,7 @@ do
 	  GourmetDraenor = true,
 	  LegionMenu = true,
 	  BattleMenu = true,
+    --FashionAbomination = true,
     }
   }
   local id, recipeID, _, completed
