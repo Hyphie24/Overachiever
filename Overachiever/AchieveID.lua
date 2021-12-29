@@ -73,6 +73,8 @@ OVERACHIEVER_ACHID = {
 
 	--WhatWeRideInTheShadows = 14770,	-- "What We Ride in the Shadows"
 	AfterlifeExpress = 14771,				-- "The Afterlife Express"
+	--FashionAbomination = 14833,				-- "Fashion Abomination"
+
 
 	-- Statistics:
 	Stat_ConsumeDrinks = 346,	-- "Beverages consumed"
@@ -570,6 +572,7 @@ OVERACHIEVER_EXPLOREZONEID = {
 	["Ardenweald"] = 14304,
 	["Revendreth"] = 14306,
 	["The Maw"] = 14663,
+	["Korthia"] = 15053,
 };
 OVERACHIEVER_EXPLOREZONEID["Thunder Totem"] = OVERACHIEVER_EXPLOREZONEID["Highmountain"]
 -- "Explore Cataclysm": 4868

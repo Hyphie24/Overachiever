@@ -220,7 +220,7 @@ if (not TjOptions or TjOptions.Version < THIS_VERSION) then
     local tip = self.TjOpt_tab.tooltip
     if (tip) then
       GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
-      GameTooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b);
+    --GameTooltip:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b);
       local t = type(tip)
       if (t == "string" or t == "table") then
         local wrap = self.TjOpt_tab.tooltipWrap
