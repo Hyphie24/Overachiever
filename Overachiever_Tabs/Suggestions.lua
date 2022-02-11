@@ -2302,10 +2302,6 @@ local ACHID_INSTANCES_MYTHIC = {
 		15486,
 		15488,
 	},
-	-- ["Flying"] = {
-		-- 15514,
-		
-	-- },
 }
 
 
