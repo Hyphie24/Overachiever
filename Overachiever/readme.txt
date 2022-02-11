@@ -1,5 +1,5 @@
 
-Overachiever v1.1.5
+Overachiever v1.2.3
 ==============================
 
 Original Author: Tuhljin
@@ -114,6 +114,11 @@ Change log
 ==========
 
 The change log lists changes of particular note to users, not every change made.
+
+v1.2.3
+- Updated toc for 9.2
+- Added Suggestions for Sepulcher of the First ones
+- Added Zereth Mortis Zone
 
 v1.1.4
 - "Afterlife Express" (new): Added an option to display a reminder tooltip for riding carriages in Revendreth.

@@ -346,6 +346,15 @@ local achDarkmoonFaire = {
 	11921, -- Mosh Pit
 	11920, -- Perfect Performance
 	11919, -- Taking this Show on the Road
+	15213, -- Don't Stop Dancing
+	15215, -- Can't Stop the Feeling
+	15212, -- First Dance
+	15222, -- You Got the Beat
+	15221, -- Dancing Machine
+	15223, -- Feeling It
+	15216, -- Make You Sweat
+	15217, -- Maniac on the Dance Floor
+	15214, -- What a Feeling
 }
 -- To get base data:
 -- 1. /run Overachiever.Debug_GetIDsInCat(15101, true)
@@ -1020,6 +1029,34 @@ local ACHID_ZONE_MISC = {
 		14961, -- Chains of Domination
 		15064, -- Breaking the Chains
 	},
+	["Zereth Mortis"] = {
+		15211, -- Completing the Code
+		15229, -- Traversing the Spheres
+		15331, -- Treasures of Zereth Mortis
+		15514, -- Unlocking the Secrets
+		15391, -- Adventurer of Zereth Mortis
+		15509, -- Tales of the Exile
+		15402, -- Cyphers of the First Ones
+		15513, -- Curious Collections
+		15224, -- Explore Zereth Mortis
+		15392, -- Dune Dominance
+		15512, -- Adventures in Zereth Mortis
+		15502, -- Sand Sand Everywhere
+		15508, -- Fashion of the First Ones
+		15411, -- Synthe Supersized
+		15406, -- Synthesized
+		15407, -- Synthe Fived
+		15404, -- Cosmic Empowerment
+		15542, -- Apocopocolypse Now
+		15410, -- Synthe Superfived
+		15336,
+		15402,
+		15513,
+		15518,
+		15515,
+		15404,
+		
+	},
 	["Covenant (Kyrian)"] = {
 		14851, -- Bastion of Protection
 		14852, -- The Hoot of the Issue
@@ -1635,6 +1672,24 @@ local ACHID_INSTANCES = {
 		15132,
 		15133,
 	},
+	["Sepulcher of the First Ones"] = {
+		15315,
+		15397,
+		15386,
+		15396,
+		15401,
+		15494,
+		15399,
+		15381,
+		15419,
+		15400,
+		15398,
+		15478,
+		15490,
+		15491,
+		15409,
+		
+	},
 }
 -- Aliases
 ACHID_INSTANCES["Molten Core"] = ACHID_INSTANCES["The Molten Core"]
@@ -2233,6 +2288,19 @@ local ACHID_INSTANCES_MYTHIC = {
 		15119,
 		15120,
 		15121,
+	},
+	["Sepulcher of the First Ones"] = {
+		15479,
+		15481,
+		15483,
+		15485,
+		15487,
+		15489,
+		15480,
+		15482,
+		15484,
+		15486,
+		15488,
 	},
 }
 
