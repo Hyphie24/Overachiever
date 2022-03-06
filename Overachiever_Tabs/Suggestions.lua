@@ -355,6 +355,14 @@ local achDarkmoonFaire = {
 	15216, -- Make You Sweat
 	15217, -- Maniac on the Dance Floor
 	15214, -- What a Feeling
+	15221,
+	15212,
+	15217,
+	15223,
+	15216,
+	15222,
+	15213,
+	15215,
 }
 -- To get base data:
 -- 1. /run Overachiever.Debug_GetIDsInCat(15101, true)
@@ -562,6 +570,7 @@ local ACHID_ZONE_MISC = {
 -- Darkmoon Faire
 	["Darkmoon Island"] = achDarkmoonFaire,
 	["Darkmoon Faire"] = achDarkmoonFaire,
+	["South Pavilion"] = achDarkmoonFaire,
 	-- !! - not 100% certain which is needed; may be both; test when the faire's available
 -- Other Cataclysm-related
 	["Deepholm"] = { 5445, 5446, 5447, 5449 },	-- "Fungalophobia", "The Glop Family Line",
