@@ -1,6 +1,6 @@
 ## Interface: 90200
 ## Title: Overachiever - Tabs
-## Version: 1.2.3
+## Version: 1.2.31
 ## Original Author: Tuhljin
 ## Fan Fix Author: Hyphie
 ## Notes: Add tabs (Search, Suggestions, etc.) to the Achievements window.
