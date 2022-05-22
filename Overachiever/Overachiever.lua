@@ -1484,7 +1484,7 @@ function Overachiever.OnEvent(self, event, arg1, ...)
     -- Make the default UI's "Achievement Filter" dropdown respond to clicks anywhere instead of only on the down-arrow button:
     --AchievementFrameFilterDropDownButton:SetWidth( AchievementFrameFilterDropDown:GetWidth() )
     if (AchievementFrameFilterDropDownButton and AchievementFrameFilterDropDownMouseOver) then -- failsafe
-      AchievementFrameFilterDropDownButton:SetWidth(20)
+      AchievementFrameFilterDropDownButton:SetWidth(AchievementFrameFilterDropDownButton:GetHeight())
       AchievementFrameFilterDropDownButton:HookScript("OnEnter", AchievementFrameFilterDropDownMouseOver:GetScript("OnEnter"))
       AchievementFrameFilterDropDownButton:HookScript("OnLeave", AchievementFrameFilterDropDownMouseOver:GetScript("OnLeave"))
     end
