@@ -1,6 +1,6 @@
 ## Interface: 90200
 ## Title: Overachiever - Trade
-## Version: 1.2.31
+## Version: 1.2.32
 ## Original Author: Tuhljin
 ## Fan Fix Author: Hyphie
 ## Notes: Add achievement information to the Cooking window.

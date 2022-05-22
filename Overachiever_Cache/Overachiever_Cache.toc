@@ -1,6 +1,6 @@
 ## Interface: 90200
 ## Title: Overachiever - Cache
-## Version: 1.2.31
+## Version: 1.2.32
 ## Original Author: Tuhljin
 ## Fan Fix Author: Hyphie
 ## Notes: Shorten load times and improve accuracy of cross-faction data.
