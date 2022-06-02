@@ -479,6 +479,11 @@ local achBrawlersGuild = {
 	11573, -- Rumble Club
 }
 
+local achEnigmaCrucible = {
+	15577,
+	15576,
+	}
+
 local achArgus = {
 	12101, -- We Came Here For Two Reasons
 	12077, -- Adventurer of Argus
@@ -1028,6 +1033,7 @@ local ACHID_ZONE_MISC = {
 		14961, -- Chains of Domination
 		15064, -- Breaking the Chains
 		15004, -- A Sly Fox
+		15648, -- Walking in Maw-mphis
 	},
 	["Korthia"] = { 
 		15107, -- Conquering Korthia
@@ -1195,6 +1201,7 @@ else
   ACHID_ZONE_MISC["The Banshee's Wail"] = achWarship
 
   ACHID_ZONE_MISC["Brawl'gar Arena"] = achBrawlersGuild
+  ACHID_ZONE_MISC["Enigma Crucible"] = achEnigmaCrucible
 
 end
 -- "The Fishing Diplomat":
@@ -1261,6 +1268,8 @@ do
 		14638, -- The Anima Must Flow
 		14639, -- Dedication to the Restoration
 		14777, -- Restoration Expert
+		15649, -- Shadowlands Dilettante
+		15646, -- Re-Re-Re-Renowned
 	}
 	mergelist(covSanctum, ACHID_ZONE_MISC["Covenant (Kyrian)"])
 	mergelist(covSanctum, ACHID_ZONE_MISC["Covenant (Necrolord)"])
@@ -1660,6 +1669,11 @@ local ACHID_INSTANCES = {
 		14715,
 		14717,
 		14718,
+		15663,
+		15684,
+		15664,
+		15685,
+		
 	},
 	["Sanctum of Domination"] = {
 		14998,
@@ -1680,6 +1694,9 @@ local ACHID_INSTANCES = {
 		15131,
 		15132,
 		15133,
+		15667,
+		15668,
+		15685,
 	},
 	["Sepulcher of the First Ones"] = {
 		15315,
@@ -1697,6 +1714,9 @@ local ACHID_INSTANCES = {
 		15490,
 		15491,
 		15409,
+		15681,
+		15682,
+		15685,
 		
 	},
 }
@@ -2221,36 +2241,42 @@ local ACHID_INSTANCES_MYTHIC = {
 		14374,
 		14409,
 		14606,
+		15651,
 	},
 	["Halls of Atonement"] = {
 		14284,
 		14352,
 		14411,
-		14567,		
+		14567,
+		15651,
 	},
 	["Mists of Tirna Scithe"] = {
 		14291,
 		14375,
 		14413,
 		14503,
+		15651,
 	},
 	["Plaguefall"] = {
 		14292,
 		14296,
 		14347,
 		14415,
+		15651,
 	},
 	["Sanguine Depths"] = {
 		14199,
 		14286,
 		14289,
 		14290,
+		15651,
 	},
 	["Spires of Ascension"] = {
 		14323,
 		14325,
 		14327,
 		14331,
+		15651,
 	},
 	["Tazavesh, the Veiled Market"] = {
 		15106,
@@ -2259,18 +2285,23 @@ local ACHID_INSTANCES_MYTHIC = {
 		15178,
 		15179,
 		15190,
+		15650,
+		15652,
+		15651,
 	},
 	["The Necrotic Wake"] = {
 		14285,
 		14295,
 		14320,
 		14368,
+		15651,
 	},
 	["Theater of Pain"] = {
 		14297,
 		14417,
 		14533,
 		14607,
+		15651,
 	},
 	
 -- Shadowlands Raids
@@ -2285,6 +2316,8 @@ local ACHID_INSTANCES_MYTHIC = {
 		14363,
 		14364,
 		14365,
+		15665,
+		15687,
 	},
 	["Sanctum of Somination"] = {
 		15112,
@@ -2297,6 +2330,8 @@ local ACHID_INSTANCES_MYTHIC = {
 		15119,
 		15120,
 		15121,
+		15669,
+		15687,
 	},
 	["Sepulcher of the First Ones"] = {
 		15479,
@@ -2310,6 +2345,8 @@ local ACHID_INSTANCES_MYTHIC = {
 		15484,
 		15486,
 		15488,
+		15683,
+		15687,
 	},
 }
 
